@@ -7,6 +7,7 @@ edition = "2018"
 exclude = [
   # Those files are rust-optimizer artifacts. You might want to commit them for convenience but they should not be part of the source code publication.
   "*.wasm",
+  "artifacts/*.wasm",
   "hash.txt",
 ]
 
